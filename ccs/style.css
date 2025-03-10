@@ -1,6 +1,25 @@
-@import url(variables.css);
+@import url(/ccs/variables.css);
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+/************* Header *************/
+header{
+    background: linear-gradient(165deg, var(--color-1), var(--color-2) 67%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.header__splash{
+    display: flex;
+    margin-top: 200px;
+}
+.header__splash h1{
+    font-family: "Modak";
+    font-size: 60px;
+    font-weight: normal;
+    color: var(--color-3);
 }
