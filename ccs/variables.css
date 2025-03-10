@@ -1,0 +1,9 @@
+:root {
+   --color-1: #E3F8FE;
+   --color-2: #5C9CA7;
+}
+
+@font-face {
+    font-family: "Modak";
+    src: url(/storage/fonts/Modak/Modak-Regular.ttf);
+}
