@@ -3,23 +3,38 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 /************* Header *************/
-header{
+body{
     background: linear-gradient(165deg, var(--color-1), var(--color-2) 67%);
     height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center ;
+    
+    
 }
 .header__splash{
     display: flex;
     margin-top: 200px;
+    flex-direction: column;
 }
 .header__splash h1{
     font-family: "Modak";
     font-size: 60px;
     font-weight: normal;
     color: var(--color-3);
+    transform: translate(32%, -0%);
+    padding-top: -300px;
+    
+    
+}
+.header__img img{
+    height: auto;
+    width: auto;
+    margin-right: 500px;
+    display: flex;
+    transform: translate(50%, -0%);
 }
