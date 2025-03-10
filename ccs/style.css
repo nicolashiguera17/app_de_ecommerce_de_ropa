@@ -6,35 +6,69 @@
     
 }
 /************* Header *************/
-body{
-    background: linear-gradient(165deg, var(--color-1), var(--color-2) 67%);
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center ;
-    
-    
+
+
+header {
+margin: 0;
+padding: 0;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background: linear-gradient(to bottom, #B3E5FC, #64B5F6);
 }
-.header__splash{
-    display: flex;
-    margin-top: 200px;
-    flex-direction: column;
+
+
+.header__splash {
+text-align: center; 
 }
-.header__splash h1{
-    font-family: "Modak";
-    font-size: 60px;
-    font-weight: normal;
-    color: var(--color-3);
-    transform: translate(32%, -0%);
-    padding-top: -300px;
-    
-    
+
+
+
+
+a {
+
+font-family:"Modak"; 
+color: white;
+font-size: 70px;
+text-transform: uppercase;
+text-decoration: none;
+border: black ;
+
 }
-.header__img img{
-    height: auto;
-    width: auto;
-    margin-right: 500px;
-    display: flex;
-    transform: translate(50%, -0%);
+
+
+.header__img .img__1 {
+width: 8300px; 
+max-width: 100%;
+}   
+
+
+@media (max-width: 768px) {
+    h1 a {
+        font-size: 2rem; 
+    }
+    .header__img .img__1 {
+        max-width: 80px; 
+    }
+}
+
+@media (max-width: 900px) {
+    h1 a {
+        font-size: 1.8rem; 
+    }
+    .header__img .img__1 {
+        max-width: 250px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    h1 a {
+            font-size: 200px; 
+        }
+    .header__img .img__1 {
+            max-width: 400px;
+        }
 }
