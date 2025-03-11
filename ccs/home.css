@@ -190,6 +190,8 @@ nav{
     color: var( --color-9);
     text-decoration: none;
 }
+
+
 .nav__category-content li a img{
     margin-left: 10px;
     margin-right: 2px;
@@ -199,3 +201,33 @@ nav{
     width: 17px;
     margin-right: 5px;
 }
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 24px 110px 24px;
+}
+.div__main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.div__img-left {
+    display: flex;
+    width: 45%;
+    margin-top: -63px;
+}
+.div__img-left-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
