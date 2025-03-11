@@ -114,7 +114,7 @@ header {
     height: 22px;
 }
 
-******************************************************
+/******************************************************/
 nav{
     display: flex;
     flex-direction: column;
@@ -193,7 +193,7 @@ nav{
     text-decoration: none;
 }
 
-***************************************************************************
+/***************************************************************************/
 .nav__category-content li a img{
     margin-left: 10px;
     margin-right: 2px;
@@ -204,7 +204,7 @@ nav{
     margin-right: 5px;
 }
 
-****************************************************************
+/****************************************************************/
 main{
     display: flex;
     flex-direction: row;
@@ -231,7 +231,7 @@ main{
 
 }
 
-*****************************************************************
+/*****************************************************************/
 
 .div__img-left-content .img-clothe1{
     width: 100%;
@@ -316,7 +316,7 @@ main{
 
 }
 
-*********************************************************************************
+/*********************************************************************************/
 .div__img-left-content .img-clothe3{
     margin-top: 24px;
     width: 100%;
@@ -402,7 +402,7 @@ main{
 
 
 
-**********************************************************************
+/**********************************************************************/
 .div__img-right{
     display: flex;
     width: 45%;
@@ -499,6 +499,88 @@ main{
     line-height: 150%;
 }
 
+/*****************************************************************************/
 
 
-
+.div__img-right-content .img-clothe4{
+    margin-top: 24px;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+.button__right-heart4{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    margin: 50px 0px 0px 110px;
+    background-color: var(--color-9);
+    border-radius: 100px;
+    border: none;
+}
+.heart-black4{
+    width: 16px;
+    height: 16px;
+    filter: brightness(100);
+}
+#heart4:checked + .button__right-heart4{
+    background-color: var(--color-9);
+    border: none;
+}
+#heart4:checked + .button__right-heart4 .heart-black4{
+    background-image: url(../storage/img/heartblanco.png);
+}
+.div__img-right-content .button__img-right-heart4 img{
+    filter: brightness(100);
+    width: 16px;
+    height: 16px;
+}
+.div__img-right-content .div__img-right-info4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 29px;
+    width: 100%;
+    height: 100%;
+}
+.div__img-right-content .div__img-right-info4 span{
+    color: var(--color-5);
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    line-height: 150%;
+}
+.div__img-right-content .div__img-right-info4 p{
+    margin-top: 3px;
+    color: var(--color-4);
+    font-family: "EncodeSans-Regular";
+    font-size: 10px;
+    line-height: 150%;
+}
+.div__img-right-content .div__img-right-info4 .div__img-right-rating4{
+    display: flex;
+    margin-top: 2px;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.div__img-right-content .div__img-right-info4 .div__img-right-rating4 .price4{
+    color: var(--color-9);
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    line-height: 150%;
+}
+.div__img-right-content .div__img-right-info4 .div__img-right-rating4 img{
+    margin-top: 5px;
+    margin-left: 12px;
+    width: 22px;
+    height: 22px;
+}
+.div__img-right-content .div__img-right-info4 .div__img-right-rating4 .rating4{
+    margin-left: 5px;
+    color: var(--color-9);
+    font-family: "EncodeSans-Regular";
+    font-size: 12px;
+    line-height: 150%;
+}
