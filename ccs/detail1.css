@@ -42,3 +42,127 @@ header{
 #heart:checked + .button__fav .heart-white {
     background-image: url(../storage/img/heart.png);
 }
+
+/**********************/
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 24px 0px 24px;
+}
+.div__img{
+    display: flex;
+    margin-top: -53px;
+    height: 392px;
+    justify-content: center;
+}
+.div__img img{
+    display: flex;
+    width: 100%;
+    border-radius: 16px;
+    object-fit: fill;
+}
+.div__info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 24px;
+}
+.div__info-clothe{
+    display: flex;
+    flex-direction: column;
+}
+.div__info-clothe .clothe-name{
+    font-family: "EncodeSans-SemiBold";
+    line-height: 130%;
+    font-size: 24px;
+    color: var(--color-5);
+}
+.div__rating-clothe{
+    align-items: center;
+    display: flex;
+    margin-top: 6px;
+}
+.div__rating-clothe img{
+    width: 18px;
+    height: 18px;
+}
+.div__rating-clothe .rating-value{
+    font-family: "EncodeSans-Regular";
+    font-size: 12px;
+    line-height: 120%;
+    margin-left: 8px;
+    color: var(--color-4);
+}
+.div__rating-clothe .reviews{
+    font-family: "EncodeSans-Regular";
+    font-size: 12px;
+    line-height: 120%;
+    margin-left: 4px;
+    color: var(--color-2);
+}
+.div__quantity-clothe{
+    display: flex;
+    margin-left: auto;
+    margin-top: -20px;
+    width: 28%;
+    height: 32px;
+    align-items: center;
+}
+.div__quantity-clothe button{
+    display: flex;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: var(--color-1);
+    border-radius: 100px;
+    border: 1px solid var(--color-9);
+}
+.div__quantity-clothe button img{
+    margin-left: 7.2px;
+    width: 16px;
+    height: 16px;
+}
+.div__quantity-clothe input{
+    width: 35px;
+    height: 24px;
+    text-align: center;
+    outline: none;
+    border: none;
+    margin-left: 3px;
+    margin-right: -12px;
+    background-color: transparent;
+    color: var(--color-2);
+    font-family: "EncodeSans-Bold";
+    font-size: 16px;
+}
+.div__description-clothe{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 8px;
+}
+.div__description-clothe p{
+    display: flex;
+    font-family: "EncodeSans-Regular";
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--color-7);
+}
+.div__description-clothe summary{
+    display: flex;
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--color-3);
+    list-style: none;
+}
+.div__description-clothe summary::after {
+    content: " Read More. . .";
+    color: var(--color-3);
+    text-decoration: none;
+}
+details[open] summary::after {
+    content: " Read Less. . .";
+}
+/********************/
