@@ -1,0 +1,39 @@
+:root {
+    --color-1: #E3F8FE;
+    --color-2: #5C9CA7;
+    --color-3: #ffff;
+    --color-4: #787676;
+    --color-5: #121111;
+    --color-6: #DFDEDE;
+    --color-7: #433F40;
+    --color-8: #CAC9C9;
+    --color-9: #292526;
+    --color-10:#FDFDFD;
+    --color-11:#F2F2F2;
+    --color-12:#171516;
+   --color-13: #ADE4EE;
+   --color-14: #463AE5;
+   --color-15: #189C3B;
+   --color-16: #F2E17E;
+   --color-17: #FFAEDF;
+   --color-18: #EDAF78;   
+   --color-19: #FB2626;
+   --color-20: #BF79F4; 
+    --shadow-color-1: hsla(0, 0%, 0%, 0.2);
+ }
+ @font-face {
+    font-family: "EncodeSans-Regular";
+    src: url(../storage/fonts/Encode_Sans/static/EncodeSans-Regular.ttf);
+}
+@font-face {
+    font-family: "EncodeSans-SemiBold";
+    src: url(../storage/fonts/Encode_Sans/static/EncodeSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: "EncodeSans-Bold";
+    src: url(../storage/fonts/Encode_Sans/static/EncodeSans-Bold.ttf);
+}
+@font-face {
+    font-family: "EncodeSans-Medium";
+    src: url(../storage/fonts/Encode_Sans/static/EncodeSans-Medium.ttf);
+}
