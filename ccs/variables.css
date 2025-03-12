@@ -1,4 +1,5 @@
 :root {
+
     --color-1: #E3F8FE;
     --color-2: #5C9CA7;
     --color-3: #ffff;
@@ -29,4 +30,8 @@
 @font-face {
     font-family: "EncodeSans-Medium";
     src: url(../storage/fonts/Encode_Sans/static/EncodeSans-Medium.ttf);
+}
+@font-face {
+    font-family: "Modak";
+    src: url(/storage/fonts/Modak/Modak-Regular.ttf);
 }
