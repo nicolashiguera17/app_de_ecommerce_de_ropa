@@ -22,6 +22,7 @@
    --color-21: #000000;
    --color-22:#347EFB;
    --color-23:#A3A1A2;
+
     --shadow-color-1: hsla(0, 0%, 0%, 0.2);
  }
  @font-face {
@@ -40,3 +41,8 @@
     font-family: "EncodeSans-Medium";
     src: url(../storage/fonts/Encode_Sans/static/EncodeSans-Medium.ttf);
 }
+@font-face {
+    font-family: "Modak";
+    src: url(/storage/fonts/Modak/Modak-Regular.ttf);
+}
+
